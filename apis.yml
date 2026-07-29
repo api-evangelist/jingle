@@ -1,21 +1,50 @@
 aid: jingle
 name: Jingle
-description: 'Jingle is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Jingle is a consumer marketplace mobile app for fast, direct local deliveries from mobile
+  stores and services — "shops-on-wheels" — operating in the San Francisco Bay Area. Users sign
+  up with a phone number (no password) and enable push notifications to be alerted when their
+  favorite mobile vendors are nearby — artisanal food trucks, farmers'-market sellers, and
+  one-click services such as bike repair, car wash, manicures, pedicures, and knife sharpening —
+  then request a "jingle" to summon them. Deliveries are handled directly by the businesses
+  themselves, cutting out delivery middlemen. Merchants use the app at their discretion to
+  broadcast their presence to nearby neighborhoods, and residential complexes can partner to
+  bring vendors on-site. Jingle is a portfolio company of Bessemer Venture Partners. The company
+  publishes no public API, developer portal, or SDK; this profile captures its public consumer
+  and merchant surface.
 url: https://raw.githubusercontent.com/api-evangelist/jingle/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/651dd5eb181fde0f253fdaf5/t/66247ef8e2542b7b45b2d5fb/1713667833018/jinglelogo.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Delivery
+- Marketplace
+- Local Commerce
+- Mobile App
+- Logistics
+- On-Demand
+- San Francisco
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.jingle-app.com/
+- type: Blog
+  url: https://www.jingle-app.com/news
+- type: PrivacyPolicy
+  url: https://www.jingle-app.com/privacy-policy
+- type: SignUp
+  url: https://www.jingle-app.com/merchants
+- type: Support
+  url: mailto:support@jingle-app.com
+- type: iOSApp
+  url: https://apps.apple.com/us/app/jingle-quick-services/id1613771626
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.jingle.consumerapp
+- type: Facebook
+  url: https://www.facebook.com/digitalJingle
+- type: Instagram
+  url: https://www.instagram.com/jingle.app
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
